@@ -37,6 +37,11 @@
   }
 }
 
-.folder {
-  border-bottom: 1px solid white;
+#folder {
+  border: 1px solid white;
+  margin: 4px;
+}
+
+#folder #folder {
+  margin-left: 10px;
 }

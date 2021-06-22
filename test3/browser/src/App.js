@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-         <Folders /> 
+         <Folders expandedFolders={['/Common7/IDE', '/VC']} />
       </header>
     </div>
   );
